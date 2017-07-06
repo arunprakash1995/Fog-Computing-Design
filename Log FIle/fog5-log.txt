@@ -1,0 +1,19 @@
+Listening on Port Number : 5005
+
+ Listening for TCP Connection on 3055
+
+ See da localhost 3056 800
+ Table localhost/127.0.0.1 3053 0
+ Table localhost/127.0.0.1 3056 800java.net.ConnectException: Operation timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at tcp_listener.sendPeriodicUpdate.send(sendPeriodicUpdate.java:54)
+	at tcp_listener.sendPeriodicUpdate.run(sendPeriodicUpdate.java:35)
+	at java.lang.Thread.run(Thread.java:745)

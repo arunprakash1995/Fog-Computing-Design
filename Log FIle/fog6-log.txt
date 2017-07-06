@@ -1,0 +1,7 @@
+Listening on Port Number : 5006
+
+ Listening for TCP Connection on 3056
+
+ See da localhost 3054 800
+ Table localhost/127.0.0.1 3055 0
+ Table localhost/127.0.0.1 3052 0

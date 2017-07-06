@@ -1,0 +1,8 @@
+java -jar /Users/ArunPrakash/Desktop/FogNode/IOTRequestGenerator.jar /Users/ArunPrakash/Desktop/FogNode/IOT_config.txt > Desktop/fog1-log.txt 2>&1 
+
+
+
+java -jar /Users/ArunPrakash/Desktop/FogNode/IOTRequestGenerator.jar /Users/ArunPrakash/Desktop/FogNode/IOT_config.txt > Desktop/fog1-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config.txt > Desktop/fog2-log.txt 2>&1
+
+
+java -jar /Users/ArunPrakash/Desktop/FogNode/IOTRequestGenerator.jar /Users/ArunPrakash/Desktop/FogNode/IOT_config.txt > Desktop/IOT-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config1.txt > Desktop/fog1-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config2.txt > Desktop/fog2-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config3.txt > Desktop/fog3-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config4.txt > Desktop/fog4-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config5.txt > Desktop/fog5-log.txt 2>&1 & java -jar /Users/ArunPrakash/Desktop/FogNode/FogNodeGen.jar /Users/ArunPrakash/Desktop/FogNode/Fog_config6.txt > Desktop/fog6-log.txt 2>&1

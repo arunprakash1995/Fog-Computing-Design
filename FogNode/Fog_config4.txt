@@ -1,0 +1,12 @@
+localhost
+3054
+5004
+1000
+20000
+2
+localhost
+3052
+5002
+localhost
+3056
+5006
